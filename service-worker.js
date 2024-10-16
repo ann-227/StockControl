@@ -8,7 +8,6 @@ const staticAssets = [
     "./static/js/main.26582f1a.js",
     "./static/css/main.343961d3.css"
 ];
-
 self.addEventListener("install", async event => {
     const cache = await caches.open(staticCacheName);
     await cache.addAll(staticAssets);
