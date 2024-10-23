@@ -1,12 +1,12 @@
-const staticCacheName = "static-cache-v09";
+const staticCacheName = "static-cache-v10";
 
 const staticAssets = [
     "./index.html",
     "./logo192.png",
     "./favicon.ico",
     "./telegram-web-app.js",
-    "./static/js/main.a3ea5c04.js",
-    "./static/css/main.2d581d01.css"
+    "./static/js/main.9158562f.js",
+    "./static/css/main.a431a587.css"
 ];
 self.addEventListener("install", async event => {
     const cache = await caches.open(staticCacheName);
