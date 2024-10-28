@@ -1,10 +1,10 @@
-const staticCacheName = "static-cache-v12";
+const staticCacheName = "static-cache-v13";
 
 const staticAssets = [
     "./index.html",
     "./logo192.png",
     "./favicon.ico",
-    "./static/js/main.6be0c5e7.js",
+    "./static/js/main.173c35df.js",
     "./static/css/main.088c2f5e.css"
 ];
 self.addEventListener("install", async event => {
